@@ -1,0 +1,137 @@
+body{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(200px,1fr));
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 10px 1rem 0px;
+    align-items: baseline;
+    grid-row: 1/1;
+}
+.hlink{
+    padding: 0px 10px 0px 10px;
+    color: #5f4545;
+}
+
+.hbutton{
+    background-color: transparent;
+}
+.button-apps{
+    width: 24px;
+    vertical-align: middle;
+    opacity: .5;
+}
+img.button-apps:hover{
+    width: 24px;
+    vertical-align: middle;
+    opacity: .8;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-row: 2/2;
+    transform: translate(0px,-50px);
+}
+.Google-image{
+    padding-bottom: 10px;
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    border: 0.1px solid #ddd;
+    border-radius: 30px;
+    padding: 0.1rem 0.5rem;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.search-icon{
+    height: 25px;
+    width: 25px;
+}
+input[type=submit]{
+    background-color: #4285f4;
+    width: 75px;
+    height: 30px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=search]{
+    width: 80%;
+    border-radius:5px;
+    border: solid #ddd;
+    border: none;
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+    min-width: 54px;
+    height: 36px;
+    padding: 0 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 0.7rem;
+    background-color: #f8f9fa;
+    color: var(--button-search-font);
+    font-size: 1.4rem;
+    color: #5f4545;
+}
+.button{
+    display:flex;
+        
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    background-color: #ddd;
+    width: 100%;
+    grid-row: 3/3;
+    
+}
+.faa{
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+hr{
+    width: 100%;
+}
+
+
+a{
+    text-decoration: none;
+    color: #5f4545;
+}
+a:hover{
+    color: #5f4545;
+    text-decoration: underline;
+}
+.buttons:hover{
+    box-shadow: 1px 1px 1px 1px;
+}
+.language{
+    margin-too: 20px;
+}
