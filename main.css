@@ -104,7 +104,7 @@ input[type=search]{
 footer{
     position: absolute;
     bottom: 0px;
-    display: flex;
+    display: block;
     background-color: #ddd;
     width: 100%;
     grid-row: 3/3;
